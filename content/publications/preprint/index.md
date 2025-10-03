@@ -1,11 +1,14 @@
 ---
-title: "An example preprint / working paper"
+title: "Semantic conflict detection with overriding assignment analysis"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+  - admin
+  - Paulo Borba
+  - Rodrigo Bonifácio
+  - Galileu Santos
+date: "2022-10-05T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2022-10-05T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,44 +19,44 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Developers typically work collaboratively and often need to embed their code into a major version of the system. This process can cause merge conflicts, affecting team productivity. Some of these conflicts require understanding software behavior (semantic conflicts) and current version control tools are not able to detect that. So here we explore how such conflicts could be automatically detected using static analysis of the integrated code. We propose and implement an assignment overriding analysis, which aims to detect interference between changes introduced by two different developers, where write paths, without intermediate assignments, to a common target indicate interference. To evaluate the implementations of the proposed analysis, a set of 78 code integration scenarios was used. The results show that the proposed analysis is able to detect scenarios with assignment overriding and with locally observable interference between the contributions.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+  - code integration conflicts
 
 featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    doi: 10.1145/3555228.3555242
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+  #  - type: preprint
+  #    provider: arxiv
+  #    id: 1512.04133v1
+  #  - type: code
+  #    url: https://github.com/HugoBlox/hugo-blox-builder
+  #  - type: slides
+  #    url: https://www.slideshare.net/
+  # - type: dataset
+  #    url: "#"
+  #  - type: poster
+  #    url: "#"
+  #  - type: source
+  #    url: "#"
+  #  - type: video
+  #    url: https://youtube.com
+  - type: custom
+    label: Online Appendix
+    url: https://spgroup.github.io/papers/semantic-conflicts-SBES2022.html
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: "Image credit: [**Gemini**](https://gemini.google.com/)"
   focal_point: ""
   preview_only: false
 
@@ -63,7 +66,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
+  - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -73,9 +76,4 @@ projects:
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+SBES '22: Proceedings of the XXXVI Brazilian Symposium on Software Engineering

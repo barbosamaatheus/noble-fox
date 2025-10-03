@@ -80,37 +80,39 @@ education:
       url: "https://sites.google.com/view/computacaoplugada/publica%C3%A7%C3%B5es?authuser=0#h.p_p3Auv9wc67DM"
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: "https://ai.meta.com/"
+  - position: Professor of Higher Education
+    company_name: Universidade Federal da Paraíba
+    company_url: "https://www.ufpb.br/dcx"
     company_logo: ""
-    date_start: 2020-01-01
-    date_end: ""
+    date_start: 2024-06-01
+    date_end: 2025-10-01
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: "https://openai.com/"
+      Professor responsible for teaching Object-Oriented Programming, Systems Analysis and Design, Data Modeling, and Basic Computing.
+      I worked on lesson planning, developing teaching materials, administering assessments, and guiding students in the development of academic and practical projects.
+  - position: Analista de Testes
+    company_name: Phoebus Tecnologia
+    company_url: "https://www.phoebus.com.br/"
     company_logo: ""
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2018-11-01
+    date_end: 2019-05-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      I analyzed and executed functional and regression tests in financial applications.
+      I developed test cases, identified and documented defects, and supported development teams in reproducing and correcting bugs to ensure product quality.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Java, Python, JavaScript & Typescript
         description: ""
-        percent: 95
+        percent: 100
         icon: code-bracket
-      - name: Machine Learning
+      - name: Static Analysis
         description: ""
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Docker
         description: ""
         percent: 85
         icon: cloud
@@ -118,14 +120,14 @@ skills:
     color: "#eeac02"
     color_border: "#f0bf23"
     items:
-      - name: Hiking in the Rockies
+      - name: Playing Soccer
         description: ""
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Going to the Gym
         description: ""
         percent: 90
-        icon: cpu-chip
+        icon: one
       - name: Sci-Fi Reading
         description: ""
         percent: 70
@@ -135,34 +137,33 @@ languages:
   - name: Portuguse
     percent: 100
   - name: English
-    percent: 50
-
+    percent: 80
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: "2022-12-01"
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: "2021-06-15"
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: "2019-06-30"
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+#awards:
+#  - title: Best Paper Award
+#    url: https://neurips.cc/
+#    date: "2022-12-01"
+#    awarder: NeurIPS
+#    icon: hero/trophy
+#   summary: |
+#      Awarded for groundbreaking work on efficient training of large models.
+#  - title: AI Innovation Grant
+#   url: https://www.nsf.gov/
+#   date: "2021-06-15"
+#    awarder: National Science Foundation
+#   icon: hero/currency-dollar
+#   summary: |#
+#      $500,000 grant for research in ethical AI development.
+#  - title: Outstanding PhD Thesis
+#    url: https://www.stanford.edu/
+#    date: "2019-06-30"
+#    awarder: Stanford University
+#    icon: hero/academic-cap
+#    summary: |
+#      Recognized for contributions to scaling laws in deep learning.
 ---
 
 Matheus Barbosa is a PhD student in Software Engineering and Programming Languages, passionate about development. He holds a Bachelor's degree in Computer Science from the Federal University of Paraíba, and a Master's in Software Engineering and Programming Languages from the Federal University of Pernambuco.
