@@ -53,6 +53,7 @@ interests:
   - Semantic Conflicts
   - Collaborative Development
   - Configuration Management
+  - Refactoring
 
 education:
   - area: PhD Computer Science
