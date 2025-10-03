@@ -40,6 +40,8 @@ profiles:
   #    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/barbosamaatheus
+  - icon: brands/cv
+    url: http://lattes.cnpq.br/0987601661627331
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/matheus-barbosa-188720142/
   # - icon: academicons/google-scholar

@@ -39,8 +39,8 @@ links:
   #    id: 1512.04133v1
   #  - type: code
   #    url: https://github.com/HugoBlox/hugo-blox-builder
-  #  - type: slides
-  #    url: https://www.slideshare.net/
+  - type: slides
+    url: https://docs.google.com/presentation/d/1HC3Y1TB0-9J8pdkeEuW70H4Sr9mUyxngW2y__KM5qwQ/edit?usp=sharing
   # - type: dataset
   #    url: "#"
   #  - type: poster
