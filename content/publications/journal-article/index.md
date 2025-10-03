@@ -1,15 +1,16 @@
 ---
-title: "An example journal article"
+title: "Avaliando um Aplicativo Android para Apoiar a Aplicação de Exercícios de Computação Desplugada
+Revista Brasileira de Informática"
 authors:
 - admin
-- Robert Ford
+- Ayla Rebouças
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2021-08-06T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+date: "2021-08-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,44 +18,30 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "Brazilian Journal of Computers in Education"
+publication_short: "RBIE"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This  article  aims  to  present  an  evaluation  of  "Computação  Plugada",  an  Android  application  developed  with  the purpose of making easier the dissemination of unplugged computing activities, thus giving its users the development of skills related to computational thinking. The idea of the application is that it can simplify the application of these activities in the classroom. However, it can also allow individual users to accomplish these activities by receiving automatic feedback. Online questionnaires were sent to students and to computer science teachers who already had experience  with  unplugged  computing.  We  have  also  performed  a  spontaneous  observation.  Its  purpose  was  to identify some aspects such as interest and collaboration of the students of three classes of the first year of high school submitted to the use of the application in the classroom. There was also a semistructured interview with the teacher. The results presented give evidence that the application may be suitable for individual or classroom use. We have observed  that  its  use  in  the  classroom  may  lead  to  more  interaction  between  the  students  and to  collaborative learning. Besides, it seems to be an easier way to apply activities that stimulate computational thinking.Keywords:Unplugged Computing; Computational Thinking; Computer Science Education.
+
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+  - Unplugged Computing
+  - Computational Thinking
+  - Computer Education
+  - Learning Objects
 featured: false
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
-
-links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+    doi: 10.5753/rbie.2021.29.0.798
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: "Image credit: [**Author**](https://sol.sbc.org.br/index.php/wei/article/view/6654/6550)"
   focal_point: ""
   preview_only: false
 
@@ -63,20 +50,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [plugged-computing]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+#slides: ""
 ---
-
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
