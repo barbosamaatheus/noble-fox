@@ -63,9 +63,9 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: events-and-talks
     content:
-      title: Recent & Upcoming Talks
+      title: Events & Talks
       filters:
         folders:
           - events
