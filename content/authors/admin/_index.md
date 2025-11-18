@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mathues Barbosa
+title: Matheus Barbosa
 
 # Name pronunciation (optional)
 name_pronunciation: ""
