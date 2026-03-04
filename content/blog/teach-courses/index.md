@@ -10,7 +10,7 @@ tags:
   - Hugo Blox Builder
   - Markdown
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: "Embed rich media such as videos and LaTeX math"
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
@@ -27,7 +27,7 @@ Here's an example of citing a publication using the cite shortcode:
 
 You can also use the default view by omitting the view parameter:
 
-{{< cite page="/publications/conference-paper" >}}
+<!--{{< cite page="/publications/conference-paper" >}}-->
 
 ## Video
 
@@ -42,7 +42,6 @@ Teach your course by sharing videos with your students. Choose from one of the f
 **Bilibili**:
 
     {{</* bilibili BV1WV4y1r7DF */>}}
-
 
 **Video file**
 
@@ -117,7 +116,6 @@ $$
 ## Code
 
 Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
 
     ```python
     import pandas as pd
