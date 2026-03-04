@@ -71,17 +71,6 @@ sections:
           - events
     design:
       view: card
-  - block: collection
-    id: courses
-    content:
-      title: Courses
-      filters:
-        folders:
-          - courses
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
   #- block: collection
   #  id: news
   #  content:
