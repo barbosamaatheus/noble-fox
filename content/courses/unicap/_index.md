@@ -56,7 +56,7 @@ To demonstrate conceptual mastery and pedagogical skills in presenting:
 
 ---
 
-## Presentation Structure
+## Files
 
 {{< cards >}}
 {{< card url="https://docs.google.com/presentation/d/1ag226AdIbyEpBZOAWjwFOtDCRjDj4hK4_XeIIFdZpOs/edit?usp=sharing" title="Slides" icon="document-text" subtitle="Princípios SOLID e boas práticas em Programação Orientada a Objetos" >}}
