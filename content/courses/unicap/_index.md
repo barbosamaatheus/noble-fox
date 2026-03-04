@@ -1,5 +1,5 @@
 ---
-linkTitle: unicap
+linkTitle: UNICAP
 title: SOLID Principles and Best Practices in Object-Oriented Programming
 date: 2026-01-22
 type: docs
@@ -9,6 +9,7 @@ tags:
   - solid
   - faculty-selection
   - unicap-2026
+  - Course
 
 content_meta:
 content_type: "Didactic Class"
@@ -60,4 +61,5 @@ To demonstrate conceptual mastery and pedagogical skills in presenting:
 
 {{< cards >}}
 {{< card url="https://docs.google.com/presentation/d/1ag226AdIbyEpBZOAWjwFOtDCRjDj4hK4_XeIIFdZpOs/edit?usp=sharing" title="Slides" icon="document-text" subtitle="Princípios SOLID e boas práticas em Programação Orientada a Objetos" >}}
+{{< card url="https://github.com/barbosamaatheus/unicap-solid-example" title="Code Sample" icon="document-text" subtitle="Princípios SOLID e boas práticas em Programação Orientada a Objetos" >}}
 {{< /cards >}}

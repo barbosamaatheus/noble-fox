@@ -1,5 +1,5 @@
 ---
-linkTitle: ifpe
+linkTitle: IFPE
 title: User-Centered Design, Heuristics and Prototyping
 date: 2025-12-08
 type: docs
@@ -10,6 +10,7 @@ tags:
   - prova-didatica
   - ihc
   - user-centered-design
+  - Course
 
 content_meta:
   content_type: "Teaching Demonstration – EBTT"
@@ -22,7 +23,7 @@ content_meta:
   trending: false
 ---
 
-# Teaching Demonstration – Public Examination IFPE (EBTT)
+## Teaching Demonstration – Public Examination IFPE (EBTT)
 
 This material corresponds to the **Didactic Performance Examination (Prova Prática de Desempenho Didático-Pedagógico)** of the public examination for the position of **Professor of Basic, Technical and Technological Education (EBTT)** at the Federal Institute of Education, Science and Technology of Pernambuco (IFPE).
 
